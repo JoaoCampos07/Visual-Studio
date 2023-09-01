@@ -1,0 +1,6 @@
+
+The Visual Studio Debugger has introduced a straightforward and effective method for debugging external .NET code. Whenever you step into code that has been implemented externally, the debugger will automatically decompile it and display the point of execution.
+This feature is particularly useful when analyzing call stacks, as you can double-click any stack frame and the debugger will navigate directly to the code. Additionally, you can debug the decompiled code and set breakpoints easily.
+All of the decompiled code is also shown under the External Sources node in Solution Explorer, making it easier to browse through the external files if needed.
+If you wish to disable the automatic decompilation of external code, clear the "Automatically decompile to source when needed (managed only)" option under `Tools > Options > Debugging`
+
